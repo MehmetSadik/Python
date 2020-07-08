@@ -1,0 +1,1 @@
+# Yaptigim Python odevlerini icermektedir.
