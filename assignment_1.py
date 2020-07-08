@@ -1,7 +1,9 @@
-name = input("bir ad giriniz: ").title()
+name = input("bir ad giriniz: ").title().strip()
 name1 = "Sadik"
 if name == name1:
-    print("Hello, Sadik! The password is : W@12")
+    print("Hello, {}! The password is : W@12".format(name))
+    
 else:
-    print("Hello, Amina! See you later.")
-
+    print("Hello, {}! See you later.".format(name))
+ 
+ 
